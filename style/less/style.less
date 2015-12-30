@@ -1,0 +1,297 @@
+/*
+Theme Name: JG-wp-theme
+Theme URI: 
+Description: Custom theme for my site
+Version: 1.0
+Author: jessegreen0906
+Author URI:
+Tages: 
+*/
+
+/*Imports*/
+@import "colors.less";
+@import "type.less";
+@import "utility.less";
+@import "breakpoints.less";
+	
+/*Component imports*/
+@import "components/vert-sect.less";
+@import "components/hor-sect.less";
+@import "components/img-panel.less";
+
+/*---Device agnostic styling---*/
+
+body {
+	margin:0px;
+	border:0px;
+	padding:0px;
+	  
+	/*background-image: url("/JEBBALEBBA/wp-content/uploads/2015/09/header-image-gray.jpg");
+	background-size: cover;
+	background-position:80% 0%;*/
+	background-color: @primaryColor;
+
+	font-size:12px;
+}
+
+.banner {
+	margin:0px;
+	border:0px;
+	padding:0px;
+
+	background-color: @ivory;
+	height: 4.1rem;
+	width: 100%;
+	
+	position: relative;
+}
+
+.header-button-wrapper {
+	margin: 0%;
+	border: 0%;
+	padding: 0%;
+	
+	float:left;
+	position:relative;
+	
+	height: 4.1rem; /*Must equal height of banner*/
+	width: 4.1rem; /*Must equal height of banner*/
+}
+
+.banner button {
+	background-color: @ivory;
+	height: 70%;
+	width: 70%;
+	
+	float:left;
+	
+	border-color: @primaryColor;
+	
+	color: @primaryColor;
+	
+	font-size: 1.2rem;
+	
+}
+
+
+#headerWrapper {
+	margin:0px;
+	border:0px;
+	padding:0px;
+	
+	display:inline-block;
+}
+
+#headerWrapper > p {
+	margin:0px;
+	border:0px;
+	padding:0px;
+	
+	font-size: 1.6rem;
+	color: @primaryColor;
+}
+
+#masthead {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	
+	width: 100%;
+	height: 12rem;
+	
+	background-image: url("/JEBBALEBBA/wp-content/uploads/2015/09/header-image.jpg");
+	background-size: cover;
+	background-position:80% 0%;
+}
+
+#menu-container {
+	background-color: @grey--dark--threeQuarterTransperancy;
+	
+	position:absolute;
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	
+	z-index: 3;
+	
+	display:none;
+	opacity: 0;
+}
+
+#menu-container .banner {
+	background-color: @primaryColor;
+}
+
+#menu-container .banner button {
+	background-color: @primaryColor;
+	color: @ivory;
+	border-color: @ivory;
+}
+
+#menu-container .banner > #headerWrapper > p {
+	color: @ivory;
+}
+
+.navbar {
+	margin-bottom:0px;
+}
+#menu-container nav ul {
+	margin: 1.6rem;
+	border: 0px;
+	padding: 0px;
+}
+
+#menu-container nav ul li {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+
+	list-style-type: none;
+}
+
+#menu-container nav ul li a {
+	background-color: @secondaryColor;
+	
+	display: block;
+	height: 3rem;
+	width: 100%;
+	
+	font-size: 2rem;
+	line-height: 3rem;
+	padding: 0px 1rem;
+	
+	vertical-align: middle;
+	
+	color: rgba(255,255,255,1);
+}
+
+
+#menu-container nav ul li a span.glyphicon {
+	float: right;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	
+	line-height: 3rem;
+}
+
+.bannerNav {
+	width: 100%;
+	
+	margin:0px;
+	padding:0px;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	
+	background-color: @secondaryColor--threeQuarterTransperancy;
+	
+}
+
+.bannerNav > li {
+	display: inline-block;
+	width:100%;
+	
+	/*padding-left:1em;*/
+}
+
+.bannerNav a {
+	color: white;
+}
+
+#main {
+	width:100%;
+	margin:0px;
+	padding:0px
+}
+
+#delimiter {
+  clear: both; 
+}
+
+#footer {
+	width:100%;
+	
+	background-color: #141414;
+}
+
+#footer p {
+	margin:0px;
+}
+
+.title {
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+/*---Mobile device styling---*/
+
+@media only screen and (min-device-width: @mobilePortrait) and (max-device-width: @tabletPortrait) {
+
+	
+
+	#wrapper {
+		margin:0px; 
+		border: 0px;
+		padding:0px 0px;
+		
+		display: block;
+		width:100%;
+		min-width:320px;
+		
+		background-color:@grey-medium;
+	}
+	#content {
+		width: 100% - 4rem;
+		padding: 1rem;
+		margin: 1rem;
+		box-sizing: border-box;
+		
+		background-color:white;
+		
+	}
+	
+	p, a, ul>li {
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		
+		font-size: 1rem;
+	}
+	
+}
+
+/*---Tablet styling---*/
+
+@media only screen and (min-device-width: @tabletPortrait) {
+	#wrapper {
+		display: block;
+		height:100%;
+		width:90%;
+		margin:0px auto; 
+		
+		background-color:@grey-medium;
+	}
+
+	#content {
+		width: 75%;
+		float: right; 
+		padding: 2em;
+		color:white;
+	  
+		background-color: @primaryColor--threeQuarterTransperancy;
+		
+	}
+
+	#sidebar {
+		width: 20%;
+		
+		float:left;
+	}
+}
+
+/*---Desktop styling---*/
+
+/*---Extra large display---*/
+
+

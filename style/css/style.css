@@ -1,0 +1,246 @@
+html {
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-size: 16px;
+}
+body {
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-size: 16px;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3.0rem;
+}
+p {
+  font-size: 16px;
+}
+.u-centerVertical {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,0);
+}
+.u-centerHorizontal {
+  position: absolute;
+  left: 50%;
+  transform: translate(0,-50%);
+}
+.u-centerBoth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.u-backgroundWhite {
+  background-color: #ffffff;
+}
+.vert-sect {
+  width: 100%;
+  max-width: 1920px;
+  min-height: 100%;
+  margin: 0px auto;
+}
+.hor-sect {
+  max-width: 100%;
+  width: 100%;
+  background-color: white;
+}
+.img-panel {
+  max-width: 100%;
+  width: 100%;
+}
+.img-panel img {
+  width: 100%;
+  max-width: 100%;
+}
+body {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  background-color: #3a48d0;
+  font-size: 12px;
+}
+.banner {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  background-color: ;
+  height: 4.1rem;
+  width: 100%;
+  position: relative;
+}
+.header-button-wrapper {
+  margin: 0%;
+  border: 0%;
+  padding: 0%;
+  float: left;
+  position: relative;
+  height: 4.1rem;
+  width: 4.1rem;
+}
+.banner button {
+  background-color: ;
+  height: 70%;
+  width: 70%;
+  float: left;
+  border-color: #3a48d0;
+  color: #3a48d0;
+  font-size: 1.2rem;
+}
+#headerWrapper {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+#headerWrapper > p {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  font-size: 1.6rem;
+  color: #3a48d0;
+}
+#masthead {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 12rem;
+  background-image: url("/JEBBALEBBA/wp-content/uploads/2015/09/header-image.jpg");
+  background-size: cover;
+  background-position: 80% 0%;
+}
+#menu-container {
+  background-color: rgba(62,62,62,0.75);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  display: none;
+  opacity: 0;
+}
+#menu-container .banner {
+  background-color: #3a48d0;
+}
+#menu-container .banner button {
+  background-color: #3a48d0;
+  color: ;
+  border-color: ;
+}
+#menu-container .banner > #headerWrapper > p {
+  color: ;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+#menu-container nav ul {
+  margin: 1.6rem;
+  border: 0px;
+  padding: 0px;
+}
+#menu-container nav ul li {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+#menu-container nav ul li a {
+  background-color: #26a2c5;
+  display: block;
+  height: 3rem;
+  width: 100%;
+  font-size: 2rem;
+  line-height: 3rem;
+  padding: 0px 1rem;
+  vertical-align: middle;
+  color: #ffffff;
+}
+#menu-container nav ul li a span.glyphicon {
+  float: right;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  line-height: 3rem;
+}
+.bannerNav {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: rgba(38,162,197,0.75);
+}
+.bannerNav > li {
+  display: inline-block;
+  width: 100%;
+}
+.bannerNav a {
+  color: white;
+}
+#main {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#delimiter {
+  clear: both;
+}
+#footer {
+  width: 100%;
+  background-color: #141414;
+}
+#footer p {
+  margin: 0px;
+}
+.title {
+  font-size: 11pt;
+  font-weight: bold;
+}
+@media only screen and (min-device-width: ) and (max-device-width: ) {
+  #wrapper {
+    margin: 0px;
+    border: 0px;
+    padding: 0px 0px;
+    display: block;
+    width: 100%;
+    min-width: 320px;
+    background-color: ;
+  }
+  #content {
+    width: 96%;
+    padding: 1rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  p,
+  a,
+  ul>li {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-device-width: ) {
+  #wrapper {
+    display: block;
+    height: 100%;
+    width: 90%;
+    margin: 0px auto;
+    background-color: ;
+  }
+  #content {
+    width: 75%;
+    float: right;
+    padding: 2em;
+    color: white;
+    background-color: rgba(58,72,208,0.75);
+  }
+  #sidebar {
+    width: 20%;
+    float: left;
+  }
+}
