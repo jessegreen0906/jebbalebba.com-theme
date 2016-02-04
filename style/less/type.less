@@ -1,7 +1,7 @@
 /* This document defines the type definitions */
 
 @fontFamily--default: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
-@fontSize--default: 16px;
+@fontSize--default: 24px;
 
 html {
 	font-family: @fontFamily--default;
@@ -14,14 +14,92 @@ body {
 }
 
 h1 {
-	font-size:3.5rem;
+	font-size:2rem;
+	padding: 0.3rem 0px;
 }
 
 h2 {
-	font-size:3.0rem;
+	font-size:1.5rem;
+	padding: 0.3rem 0.5rem;
+	background-color:@grey--dark;
+	color: @white;
+}
+
+h3 {
+	font-size:1.2rem;
+	padding: 0.3rem 0.5rem;
+	background-color:@grey--light;
+	margin-top:0.5rem;
+}
+
+h4 {
+	font-size:1rem;
+	padding: 0.3rem 0.75rem;
+	text-decoration:underline;
+}
+
+h5 {
+	font-size:1rem;
+	padding: 0.3rem 0.75rem;
+}
+
+h6 {
+	font-size:1rem;
+	padding: 0.3rem 0.75rem;
 }
 
 p {
 	font-size: @fontSize--default;
+	padding: 0.3rem 0.75rem;
 }
 
+a {
+	
+}
+
+ul {
+	margin:0.3rem 0.75rem;
+}
+
+li {
+	font-size: @fontSize--default;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	margin:0px;
+}
+.subtext {
+	font-size:0.85em;
+	font-style:italic;
+}
+
+@media only screen and (max-device-width: @xs-max) {
+	h1 {
+		font-size:1.5rem;
+	}
+	
+	h2 {
+		font-size:1.25rem;
+	}
+
+	h3 {
+		font-size:1.1rem;
+	}
+
+	h4 {
+		font-size:1.0rem;
+	}
+
+	h5 {
+		font-size:1.0rem;
+	}
+
+	h6 {
+		font-size:1.0rem;
+	}
+
+	p, li {
+		font-size: 0.75rem;
+	}
+
+}

@@ -1,4 +1,4 @@
-html {
+a:4:{s:4:"root";s:90:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/templates/page-home.less";s:8:"compiled";s:4814:"html {
   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 24px;
 }
@@ -229,79 +229,68 @@ nav {
     max-height: 10rem;
   }
 }
-.nav-dropdown {
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
-  height: 2rem;
+.graphic-link {
   width: 100%;
-  background: #3e3e3e;
-  color: #ffffff;
-}
-.nav-dropdown button {
-  background: #3e3e3e;
-  float: left;
-  height: 2rem;
-  border: #ffffff 0px solid;
-  width: 15%;
-  display: block;
-}
-.nav-dropdown button.dropdown {
-  width: 70%;
-  margin: 0px auto;
-  border-left: #ffffff 2px solid;
-  border-right: #ffffff 2px solid;
-}
-.nav-dropdown button.dropdown span {
-  float: right;
-  margin-right: 0.5rem;
-}
-.nav-dropdown ul {
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
+  margin: 1rem 0px;
+  padding: 20px;
   position: relative;
+  transition: background-color 0.5s;
+}
+.graphic-link:hover {
+  background-color: #3a48d0;
+}
+.graphic-link img {
+  width: 33%;
+  max-width: 18rem;
+}
+.graphic-link h3 {
+  background: rgba(210,210,210,0.75);
+  color: #000000;
+  margin: 0px;
+  padding: 0.0rem 0.5rem;
+  z-index: 5;
+  font-size: 1.6rem;
+  position: absolute;
+  top: 66%;
+  left: 25%;
+}
+html,
+body {
+  height: 100%;
   width: 100%;
-  z-index: 200;
-}
-.nav-dropdown ul li {
-  background: #3e3e3e;
-  margin: 0px auto;
-  width: 70%;
-  border-top: 1px #ffffff solid;
-  padding: 0px 25px;
-  height: 2rem;
-  line-height: 2rem;
-  list-style-type: none;
-  vertical-align: middle;
-  z-index: 200;
-  display: none;
-  overflow: hidden;
-}
-.nav-dropdown ul li.selected {
-  visibility: hidden;
-}
-@media screen and (max-width: 767px) {
-  .nav-dropdown button {
-    display: block;
-  }
+  min-width: 320px;
 }
 body {
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
-  min-width: 320px;
-  background-color: #bababa;
+  background-image: url("/wp-content/uploads/2015/09/header-image.jpg");
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .container-fluid {
   padding: 0px;
+  height: 100%;
 }
-.title {
-  font-size: 4rem;
-  font-weight: bold;
+#content {
+  padding: 0.1px 0px;
+  background-color: #ffffff;
 }
-.content {
-  padding: 25px;
-  max-width: 1280px;
-  margin: 0px auto;
+@media only screen and (min-width: 992px) {
+  #content {
+    width: 40%;
+    margin: 5% 0%;
+    margin-left: 5%;
+    padding: 0.1px 1rem;
+    background-color: #ffffff;
+  }
+  #show-footer {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    background-color: rgba(50,50,50,0.75);
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
 }
+";s:5:"files";a:12:{s:90:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/templates/page-home.less";i:1452585126;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/colors.less";i:1452627785;s:75:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/type.less";i:1454529556;s:78:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/utility.less";i:1452583039;s:82:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/breakpoints.less";i:1454531744;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/header.less";i:1454529694;s:89:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/nav-bar.less";i:1454529966;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/footer.less";i:1452577827;s:91:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/vert-sect.less";i:1452627216;s:90:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/hor-sect.less";i:1450832981;s:91:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/img-panel.less";i:1454530099;s:94:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/graphic-link.less";i:1450832981;}s:7:"updated";i:1454547589;}

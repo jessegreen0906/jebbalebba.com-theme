@@ -1,19 +1,87 @@
 html {
   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
-  font-size: 16px;
+  font-size: 24px;
 }
 body {
   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
-  font-size: 16px;
+  font-size: 24px;
 }
 h1 {
-  font-size: 3.5rem;
+  font-size: 2rem;
+  padding: 0.3rem 0px;
 }
 h2 {
-  font-size: 3.0rem;
+  font-size: 1.5rem;
+  padding: 0.3rem 0.5rem;
+  background-color: #3e3e3e;
+  color: #ffffff;
+}
+h3 {
+  font-size: 1.2rem;
+  padding: 0.3rem 0.5rem;
+  background-color: #bababa;
+  margin-top: 0.5rem;
+}
+h4 {
+  font-size: 1rem;
+  padding: 0.3rem 0.75rem;
+  text-decoration: underline;
+}
+h5 {
+  font-size: 1rem;
+  padding: 0.3rem 0.75rem;
+}
+h6 {
+  font-size: 1rem;
+  padding: 0.3rem 0.75rem;
 }
 p {
-  font-size: 16px;
+  font-size: 24px;
+  padding: 0.3rem 0.75rem;
+}
+ul {
+  margin: 0.3rem 0.75rem;
+}
+li {
+  font-size: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0px;
+}
+.subtext {
+  font-size: 0.85em;
+  font-style: italic;
+}
+@media only screen and (max-device-width: 767px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 1.0rem;
+  }
+  h5 {
+    font-size: 1.0rem;
+  }
+  h6 {
+    font-size: 1.0rem;
+  }
+  p,
+  li {
+    font-size: 0.75rem;
+  }
 }
 .u-centerVertical {
   position: absolute;
@@ -34,13 +102,92 @@ p {
 .u-backgroundWhite {
   background-color: #ffffff;
 }
+nav {
+  margin-bottom: 0px;
+}
+.navbar {
+  margin-bottom: 0px;
+  background-color: #191919;
+}
+.navbar-default {
+  margin-bottom: 0px;
+  border: 0px;
+  border-radius: 0px;
+}
+.navbar-header {
+  padding: 0px 1rem;
+}
+.navbar a {
+  font-size: 0.75rem;
+}
+.navbar li:hover {
+  background-color: #7c7c7c;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: #7c7c7c;
+  color: #333;
+}
+@media (max-width: 1199px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0.75rem;
+  }
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .collapsing {
+    overflow: hidden !important;
+  }
+}
+.navbar {
+  margin-bottom: 0px;
+  background-color: #191919;
+}
+.navbar a {
+  font-size: 0.75rem;
+}
+.navbar li:hover {
+  background-color: #7c7c7c;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: #7c7c7c;
+  color: #333;
+}
 #footer {
-  background-color: #141414;
-  color: white;
+  background-color: #191919;
+  color: #ffffff;
   padding: 0.5rem;
+  width: 100%;
+}
+#footer p {
+  margin: 0px;
 }
 .vert-sect {
-  width: 100%;
   max-width: 1920px;
   min-height: 100%;
   margin: 0px auto;
@@ -50,30 +197,37 @@ p {
   width: 100%;
   background-color: white;
 }
-#nav-bar {
-  height: 2.5rem;
-  width: 100%;
-  background-color: white;
-  padding: 0.25rem 20px;
-}
-#nav-bar button {
-  height: 2.0rem;
-  width: 2.0rem;
-  padding: 0px;
-}
-#nav-bar h2 {
-  float: right;
-  font-size: 2.0rem;
-  line-height: 2.0rem;
-  margin: 0px;
-}
 .img-panel {
   max-width: 100%;
   width: 100%;
+  max-height: 20rem;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
 }
 .img-panel img {
+  margin: 0px;
   width: 100%;
   max-width: 100%;
+}
+.img-panel h1 {
+  margin: 0px;
+  margin-left: 25px;
+  padding: 0px 15px;
+  position: absolute;
+  top: 45%;
+  z-index: 20;
+  background: rgba(186,186,186,0.75);
+}
+@media screen and (max-width: 767px) {
+  .img-panel h1 {
+    width: 100%;
+    margin: 0px;
+  }
+  .img-panel {
+    max-height: 10rem;
+  }
 }
 .graphic-link {
   width: 100%;
@@ -107,63 +261,11 @@ body {
   min-width: 320px;
 }
 body {
-  background-image: url("http://jebbalebba.com/JEBBALEBBA/wp-content/uploads/2015/09/header-image.jpg");
+  background-image: url("/wp-content/uploads/2015/09/header-image.jpg");
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-nav {
-  background: none;
-  margin-bottom: 0px;
-}
-.navbar-default {
-  background: none;
-  margin-bottom: 0px;
-  border: 0px;
-  border-radius: 0px;
-}
-.navbar-header {
-  padding: 0px 1rem;
-}
-button.navbar-toggle .icon-bar {
-  width: 1rem;
-}
-@media (max-width: 1199px) {
-  .navbar-header {
-    float: none;
-  }
-  .navbar-toggle {
-    display: block;
-  }
-  .navbar-collapse {
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-  }
-  .navbar-collapse.collapse {
-    display: none !important;
-  }
-  .navbar-nav {
-    float: none !important;
-    margin: 7.5px -15px;
-  }
-  .navbar-nav>li {
-    float: none;
-  }
-  .navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .navbar-text {
-    float: none;
-    margin: 15px 0;
-  }
-  .navbar-collapse.collapse.in {
-    display: block !important;
-  }
-  .collapsing {
-    overflow: hidden !important;
-  }
 }
 .container-fluid {
   padding: 0px;

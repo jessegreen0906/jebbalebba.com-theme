@@ -1,4 +1,4 @@
-html {
+a:4:{s:4:"root";s:76:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/style.less";s:8:"compiled";s:4925:"html {
   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 24px;
 }
@@ -305,3 +305,4 @@ body {
   max-width: 1280px;
   margin: 0px auto;
 }
+";s:5:"files";a:13:{s:76:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/style.less";i:1454527807;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/colors.less";i:1452627785;s:75:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/type.less";i:1454529556;s:78:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/utility.less";i:1452583039;s:82:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/breakpoints.less";i:1454531744;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/zIndex.less";i:1453061740;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/header.less";i:1454529694;s:89:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/nav-bar.less";i:1454529966;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/footer.less";i:1452577827;s:91:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/vert-sect.less";i:1452627216;s:90:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/hor-sect.less";i:1450832981;s:91:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/img-panel.less";i:1454530099;s:102:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/navigatable-dropdown.less";i:1453407688;}s:7:"updated";i:1454547589;}

@@ -7,7 +7,7 @@
     // input and output location
     $inputFile = get_template_directory().'/style/less/style.less';
     $outputFile = get_template_directory().'/style/css/style.css';
-
+    
     // load the cache
     $cacheFile = $inputFile.".cache";
 
@@ -51,7 +51,5 @@
     }
 }
 
-if(is_admin()) {
-    add_action('init', 'autoCompileLess');
-}
+add_action('init', 'autoCompileLess');
 ?>
