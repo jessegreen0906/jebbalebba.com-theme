@@ -1,4 +1,5 @@
 # jebbalebba.com-theme
 Repository 
 
-V1.0 - Working home page.
+V1.1 - Working home page.
+
