@@ -286,6 +286,25 @@ nav {
     display: block;
   }
 }
+.content-focus-box {
+  margin: 20px;
+}
+.content-focus-box-dark {
+  background-color: #3e3e3e;
+  color: #bababa;
+}
+.content-focus-box-dark h3 {
+  background-color: #3e3e3e;
+  color: #ffffff;
+  border-bottom: solid #bababa 1px;
+}
+.content-focus-box-dark .cta {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #bababa;
+  border-color: #bababa;
+  font-size: 1rem;
+}
 body {
   margin: 0px;
   border: 0px;
