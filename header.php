@@ -26,10 +26,10 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
 					<li <?php if(is_front_page()){echo "class=\"active\"";} ?>><a href="/">Home</a></li>
-					<li <?php if(is_page('Professional Profile')){echo " class=\"active\"";} ?>><a href="professional-profile/">Professional Profile</a></li>
-					<li <?php if(is_page('Personal Projects')){echo " class=\"active\"";} ?>><a href="personal-projects/">Personal Projects</a></li> 
-					<li <?php if(is_page('Musings')){echo " class=\"active\"";} ?>><a href="musings/">Musings</a></li> 
-					<li <?php if(is_page('Resources')){echo " class=\"active\"";} ?>><a href="resources/">Hosted Resources</a></li> 
+					<li <?php if(is_page('Professional Profile')){echo " class=\"active\"";} ?>><a href="/professional-profile/">Professional Profile</a></li>
+					<li <?php if(is_page('Personal Projects')){echo " class=\"active\"";} ?>><a href="/personal-projects/">Personal Projects</a></li> 
+					<li <?php if(is_page('Musings')){echo " class=\"active\"";} ?>><a href="/musings/">Musings</a></li> 
+					<li <?php if(is_page('Resources')){echo " class=\"active\"";} ?>><a href="/resources/">Hosted Resources</a></li> 
 				</ul>
 			</div>
 	</nav>
