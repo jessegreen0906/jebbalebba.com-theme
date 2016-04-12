@@ -11,7 +11,7 @@
 				<a href="professional-profile/">
 					<div class="hor-sect" style="background-color:rgba(120,120,120,1)">
 						<div class="graphic-link">
-							<img src="/wp-content/uploads/2015/12/coffee-cup-desk-pen.jpg" class="img-circle" />
+							<img src="/wp-content/uploads/2016/03/blue-suit-square.jpg" class="img-circle" />
 							<h3>Professional Profile</h3>
 						</div>
 					</div>
@@ -19,7 +19,7 @@
 				<a href="personal-projects/">
 					<div class="hor-sect" style="background-color:rgba(50,50,50,1)">
 						<div class="graphic-link">
-							<img src="/wp-content/uploads/2015/12/hands-coffee-cup-apple.jpg" class="img-circle" />
+							<img src="/wp-content/uploads/2015/12/coffee-cup-desk-pen.jpg" class="img-circle" />
 							<h3>Personal Projects</h3>
 						</div>
 					</div>

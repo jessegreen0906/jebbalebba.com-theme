@@ -127,6 +127,35 @@ nav {
   background-color: #7c7c7c;
   color: #333;
 }
+.navbar-default .dropdown-menu {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar-default .dropdown-menu li {
+  border-top: 1px #bababa solid;
+}
+.navbar-default .dropdown-menu li:hover {
+  background-color: #bababa;
+}
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+  background-color: #7c7c7c;
+}
+.navbar-default .dropdown-menu li:first-child {
+  border-top: 0px #bababa solid;
+  font-weight: bold;
+}
+.navbar-default .dropdown-menu li:first-child a {
+  font-weight: bold;
+}
+.navbar-default .dropdown-menu li a {
+  padding: 3px 15px 3px 5px;
+}
+.navbar-default .dropdown-menu li a .glyphicon {
+  margin-right: 15px;
+  padding: 0px;
+}
 @media (max-width: 1199px) {
   .navbar-header {
     float: none;
@@ -287,11 +316,12 @@ nav {
   }
 }
 .content-focus-box {
-  margin: 20px;
+  margin: 20px 0px;
+  flex: 1;
 }
 .content-focus-box-dark {
-  background-color: #3e3e3e;
-  color: #bababa;
+  background-color: #7c7c7c;
+  color: #3e3e3e;
 }
 .content-focus-box-dark h3 {
   background-color: #3e3e3e;
@@ -300,7 +330,38 @@ nav {
 }
 .content-focus-box-dark .cta {
   width: 100%;
-  margin-bottom: 10px;
+  margin: 10px 0px;
+  background-color: #bababa;
+  border-color: #bababa;
+  font-size: 1rem;
+}
+.content-preview-box {
+  border-bottom: #bababa 1px solid;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.content-preview-box h2 {
+  padding-left: 0px;
+  background: none;
+  color: #000000;
+  text-decoration: underline;
+}
+.content-preview-box div {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+.content-preview-box .full-post {
+  display: none;
+}
+.content-preview-box .subtext {
+  padding-left: 0px;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+.content-preview-box .btn {
+  width: 100%;
+  margin: 0.5rem 0px;
   background-color: #bababa;
   border-color: #bababa;
   font-size: 1rem;
@@ -314,6 +375,17 @@ body {
 }
 .container-fluid {
   padding: 0px;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row-eq-height > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
 .title {
   font-size: 4rem;

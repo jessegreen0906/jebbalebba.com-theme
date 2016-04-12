@@ -24,6 +24,7 @@ Tags:
 @import "components/img-panel.less";
 @import "components/navigatable-dropdown.less";
 @import "components/content-focus-box.less";
+@import "components/content-preview-box.less";
 
 /*---Device agnostic styling---*/
 
@@ -39,6 +40,19 @@ body {
 
 .container-fluid {
 	padding:0px;
+}
+
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
+	flex-wrap: wrap;
+}
+
+.row-eq-height > [class*='col-'] {
+	display: flex;
+	flex-direction: column;
 }
 
 .title {

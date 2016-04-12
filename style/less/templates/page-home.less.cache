@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:90:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/templates/page-home.less";s:8:"compiled";s:4814:"html {
+a:4:{s:4:"root";s:90:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/templates/page-home.less";s:8:"compiled";s:5481:"html {
   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 24px;
 }
@@ -126,6 +126,35 @@ nav {
 .navbar-default .navbar-nav>.active>a:hover {
   background-color: #7c7c7c;
   color: #333;
+}
+.navbar-default .dropdown-menu {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar-default .dropdown-menu li {
+  border-top: 1px #bababa solid;
+}
+.navbar-default .dropdown-menu li:hover {
+  background-color: #bababa;
+}
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+  background-color: #7c7c7c;
+}
+.navbar-default .dropdown-menu li:first-child {
+  border-top: 0px #bababa solid;
+  font-weight: bold;
+}
+.navbar-default .dropdown-menu li:first-child a {
+  font-weight: bold;
+}
+.navbar-default .dropdown-menu li a {
+  padding: 3px 15px 3px 5px;
+}
+.navbar-default .dropdown-menu li a .glyphicon {
+  margin-right: 15px;
+  padding: 0px;
 }
 @media (max-width: 1199px) {
   .navbar-header {
@@ -293,4 +322,4 @@ body {
     line-height: 2.5rem;
   }
 }
-";s:5:"files";a:12:{s:90:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/templates/page-home.less";i:1452585126;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/colors.less";i:1452627785;s:75:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/type.less";i:1454529556;s:78:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/utility.less";i:1452583039;s:82:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/breakpoints.less";i:1454531744;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/header.less";i:1454529694;s:89:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/nav-bar.less";i:1454529966;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/footer.less";i:1452577827;s:91:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/vert-sect.less";i:1452627216;s:90:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/hor-sect.less";i:1450832981;s:91:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/img-panel.less";i:1454530099;s:94:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/graphic-link.less";i:1450832981;}s:7:"updated";i:1454547589;}
+";s:5:"files";a:12:{s:90:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/templates/page-home.less";i:1452585126;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/colors.less";i:1452627785;s:75:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/type.less";i:1454529556;s:78:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/utility.less";i:1452583039;s:82:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/breakpoints.less";i:1454531744;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/header.less";i:1457431626;s:89:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/nav-bar.less";i:1457467824;s:77:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/footer.less";i:1452577827;s:91:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/vert-sect.less";i:1452627216;s:90:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/hor-sect.less";i:1450832981;s:91:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/img-panel.less";i:1454530099;s:94:"/var/www/html/JEBBALEBBA/wp-content/themes/JG-wp-theme/style/less/components/graphic-link.less";i:1450832981;}s:7:"updated";i:1457471071;}

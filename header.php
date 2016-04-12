@@ -27,7 +27,16 @@
 				<ul class="nav navbar-nav">
 					<li <?php if(is_front_page()){echo "class=\"active\"";} ?>><a href="/">Home</a></li>
 					<li <?php if(is_page('Professional Profile')){echo " class=\"active\"";} ?>><a href="/professional-profile/">Professional Profile</a></li>
-					<li <?php if(is_page('Personal Projects')){echo " class=\"active\"";} ?>><a href="/personal-projects/">Personal Projects</a></li> 
+					<li class="dropdown  <?php if(is_page('Personal Projects')||$post->post_parent=='36'){echo 'active';} ?>">
+						<a href="/personal-projects/" class="dropdown-toggle" data-toggle="dropdown">Personal Projects<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li <?php if(is_page('Personal Projects')){echo " class=\"active\"";} ?>><a href="/personal-projects/"><span class="glyphicon glyphicon-menu-right"></span>Personal Projects Home</a></li>
+							<li <?php if(is_page('JebbaLebba.com')){echo " class=\"active\"";} ?>><a href="/personal-projects/jebbalebba-com"><span class="glyphicon glyphicon-menu-right"></span>JebbaLebba.com</a></li>
+							<li <?php if(is_page('Project Shadow')){echo " class=\"active\"";} ?>><a href="/personal-projects/project-shadow"><span class="glyphicon glyphicon-menu-right"></span>Project Shadow</a></li>
+							<li <?php if(is_page('Paradox war')){echo " class=\"active\"";} ?>><a href="/personal-projects/paradox-war"><span class="glyphicon glyphicon-menu-right"></span>The Paradox War</a></li>
+							<li <?php if(is_page('Quadrant todo web app')){echo " class=\"active\"";} ?>><a href="/personal-projects/quadrant-todo-web-app"><span class="glyphicon glyphicon-menu-right"></span>Quadrant Web App</a></li>
+						</ul>
+					</li>
 					<li <?php if(is_page('Musings')){echo " class=\"active\"";} ?>><a href="/musings/">Musings</a></li> 
 					<li <?php if(is_page('Resources')){echo " class=\"active\"";} ?>><a href="/resources/">Hosted Resources</a></li> 
 				</ul>
