@@ -102,6 +102,11 @@ a {
 .u-backgroundWhite {
   background-color: #ffffff;
 }
+.u-flex-wrapper-col {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
 nav {
   margin-bottom: 0px;
 }
@@ -317,7 +322,17 @@ nav {
 }
 .content-focus-box {
   margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
   flex: 1;
+}
+.content-focus-box p {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.content-focus-box .cta {
+  align-self: flex-end;
 }
 .content-focus-box-dark {
   background-color: #7c7c7c;
@@ -334,6 +349,10 @@ nav {
   background-color: #bababa;
   border-color: #bababa;
   font-size: 1rem;
+  align-self: flex-end;
+}
+.content-focus-box .cta-wrapper {
+  padding: 0.5rem;
 }
 .content-preview-box {
   border-bottom: #bababa 1px solid;

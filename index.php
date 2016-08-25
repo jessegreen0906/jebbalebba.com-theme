@@ -39,18 +39,19 @@
 						<?php if(strlen($post->post_content)>=200)
 						{ ?>
 							<div class="preview">
-								<?php echo substr($post->post_content, 0, 180)." ..."; ?>
+								<?php $content = apply_filters('the_content', $post->post_content);
+									echo substr($content, 0, 180)." ..."; ?>
 								<br />
 								<a class="btn btn-default" onclick="showPostToggle(<?php echo 'post'+$postCount; ?>);">Show full post</a>
 							</div>
 							<div class="full-post">
-								<?php echo $post->post_content ?>
+								<?php echo $content ?>
 								<br />
 								<a class="btn btn-default" onclick="showPostToggle(<?php echo 'post'+$postCount; ?>);">Hide full post</a>
 							</div>
 						<?php } else { ?>
 							<div>
-								<?php echo $post->post_content ?>
+								<?php echo apply_filters('the_content', $post->post_content) ?>
 							</div>
 						<?php } ?>
 					</div>

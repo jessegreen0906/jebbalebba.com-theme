@@ -37,12 +37,17 @@ body {
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
+	
+	display: flex;
+	
 }
 
 
 .container-fluid {
 	padding:0px; //This overwrites default bootstrap css of 0px 15px;
-	height:100%;
+	min-height:100%;
+	
+	flex-grow:2;
 }
 
 #content {

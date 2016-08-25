@@ -1,6 +1,17 @@
 .content-focus-box {
 	margin:20px 0px;
+	display: flex;
+	flex-direction: column;
 	flex: 1;
+}
+
+.content-focus-box p {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+}
+.content-focus-box .cta {
+	align-self: flex-end;
 }
 
 .content-focus-box-dark {
@@ -21,4 +32,10 @@
 	background-color:@grey--light;
 	border-color:@grey--light;
 	font-size:1rem;
+	
+	align-self: flex-end;
+}
+
+.content-focus-box .cta-wrapper {
+	padding:0.5rem;
 }
